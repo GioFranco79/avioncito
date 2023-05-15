@@ -1,0 +1,99 @@
+body {
+    background-color: black;
+}
+
+#principal{
+    width: 100%;    
+}
+
+#container {
+    background: url('/assets/img/background.jpg');
+    width: 999px;
+    height: 550px;
+    border: solid 2px #eeff00;
+    border-radius: 5px;    
+    position: absolute;
+}
+
+.hero {
+    background: url('/assets/img/1942.gif');
+    background-position: -85px -180px;
+    width: 28px;
+    height: 28px;
+    position: absolute;
+}
+
+.enemy1 {
+    background: url('/assets/img/1942.gif');
+    background-position: -30px -10px;
+    width: 28px;
+    height: 28px;
+    position: absolute;  
+}
+
+.boss {
+    background: url('/assets/img/boss.png');
+    width: 45px;
+    height: 45px;
+    position: absolute;
+}
+
+.bullet {
+    background: url('/assets/img/1942.gif');
+    background-position: -185px -400px;
+    width: 18px;
+    height: 18px;
+    position: absolute;
+}
+
+.explota {
+    background: url('/assets/img/1942.gif');
+    background-position: -85px -42px;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+}
+
+.puntaje{
+    display: inline-block;
+    margin: 3px 16px;
+}
+
+#info{
+    width: 1000px;
+    height: 50px; 
+    z-index: 1;
+    top: 560px;
+    position: absolute;
+}
+
+#score {
+    border: 7px solid #eeff00;   
+    background-color: skyblue;
+    padding: 40px;
+    font-size: 30px;
+    font-family: Arial;
+}
+
+#audio {
+    display: none;
+}
+
+.modal {
+    color: red; 
+    position: fixed;    
+    z-index: 1;    
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;    
+    height: 100%;    
+    overflow: auto;    
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);   
+    background-color: rgba(0, 0, 0, 0.6);
+    display: block;
+}
+
+h3{
+    margin: 150px 360px; 
+}
